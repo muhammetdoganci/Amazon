@@ -13,6 +13,7 @@ Feature: US01_Amazon_Task
     Then Kullanici fiyati en dusuk olan urune tiklar
     Then Kullanici urunu sepete ekler
     Then Kullanici urunun sepete eklendigini dogrular
+    Then Kullanici sayfayi kapatir
 
 
 

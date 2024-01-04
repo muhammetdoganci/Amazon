@@ -39,7 +39,7 @@ public class StepDefinitions {
     @Then("Gecerli kullanici adini girer")
     public void gecerli_kullanici_adini_girer() {
         amazon.emailBox.click();
-        actions.sendKeys(amazon.emailBox, "akifrencber@gmail.com").perform();
+        actions.sendKeys(amazon.emailBox, "mhmmtdgn30@gmail.com").perform();
 
     }
 
@@ -50,7 +50,7 @@ public class StepDefinitions {
 
     @Then("Gecerli password bilgisini girer")
     public void gecerli_password_bilgisini_girer() {
-        actions.sendKeys(amazon.passwordBox, "Akif12345").perform();
+        actions.sendKeys(amazon.passwordBox, "m14531453d").perform();
 
     }
 
@@ -99,6 +99,11 @@ public class StepDefinitions {
         Assert.assertTrue(amazon.addToCartAssert.getText().contains("Sepete Eklendi"));
         // test başarılı oldu.
 
+    }
+
+    @Then("Kullanici sayfayi kapatir")
+    public void kullaniciSayfayiKapatir() {
+        Driver.closeDriver();
     }
 }
 
