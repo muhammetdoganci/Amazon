@@ -184,9 +184,9 @@
                         </goals>
                         <configuration>
                             <projectName>cucumber-framework</projectName>
-                            <outputDirectory>${project.build.directory}</outputDirectory>
+                            <outputDirectory>target</outputDirectory>
                             <!--                            <cucumberOutput>${project.build.directory}</cucumberOutput>-->
-                            <inputDirectory>${project.build.directory}</inputDirectory>
+                            <inputDirectory>target</inputDirectory>
                             <jsonFiles>
                                 <param>**/json-reports/*.json</param>
                                 <param>**/cucumber*.json</param>
